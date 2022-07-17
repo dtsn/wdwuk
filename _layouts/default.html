@@ -1,0 +1,45 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- SEO Tag -->
+		{% seo %}
+
+		<!-- Feed -->
+		{% feed_meta %}
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="/assets/css/main.css">
+
+	</head>
+	<body>
+		<header class="header header-sticky">
+			<div class="container">
+				<nav class="navbar">
+					<a href="../../index.html" class="navbar-brand"><img src="../../assets/images/logo.svg" alt="Logo"></a>
+
+
+					<div class="collapse navbar-collapse">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="/">Home</a>
+							</li>
+						</ul>
+					</div>
+				  </nav>
+			</div>
+		</header>
+		<section class="content container">
+			{{ content }}
+		</section>
+	</body>
+</html>
