@@ -21,3 +21,6 @@ $font-family-sans-serif: 'Open Sans', sans-serif;
 @import "bootstrap/grid";
 
 // 5. Add additional custom code here
+header {
+	border-bottom: 1px solid #DCDCDC;
+}
