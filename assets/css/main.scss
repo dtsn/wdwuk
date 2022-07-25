@@ -22,5 +22,8 @@ $font-family-sans-serif: 'Open Sans', sans-serif;
 
 // 5. Add additional custom code here
 header {
-	border-bottom: 1px solid #DCDCDC;
+
+	.container {
+		border-bottom: 1px solid #DCDCDC;
+	}
 }
